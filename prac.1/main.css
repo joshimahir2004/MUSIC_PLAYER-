@@ -1,10 +1,12 @@
 .main{
     
- 
-    align-items: center;margin:
-    3rem 10rem 0 10rem;
+     
+    align-items: center;
+    margin:3rem 10rem 0 10rem;
 }
 .name_of_music{
+    display: flex;
+    justify-content: space-between;
     font-size: 1.3rem;
     margin: 2rem;
     height: 2rem;   
@@ -15,7 +17,7 @@
 }
 
 
-/* ------------------------------------MUSIC PLAYER--------------------------------------------------------------------------------------------------- */
+/*---------------------------------------MUSIC PLAYER--------------------------------------------------------------------------------------------------- */
 
 
 .music_player{
@@ -26,8 +28,12 @@
     background: rgb(255, 255, 255);
 
 }
+.music_name{
+    margin:0 1rem;
+}
+
 .song_name {
-       padding: 0.5rem 0 0 1.5rem;
+    padding: 0.5rem 0 0 1.5rem;
     font-size: 1.8rem;
 }
 .singer_name{
@@ -52,3 +58,4 @@
     background-color: white;
     border: none;
 }
+
