@@ -1,0 +1,56 @@
+.navbar{
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background: white;  
+    align-items: center;
+   
+}
+
+.nav_item{
+    margin: 1rem;
+}
+
+.nav_item ul{
+    display: flex;  
+}
+
+.nav_item li{
+    list-style-type: none;
+    margin-left: 2.5em ;
+     
+}
+.an{
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: #959595;
+    font-size: 1.1rem;
+}
+
+.name_web{
+    font-size: small;
+    padding: 0 2rem;
+    color: #404040;
+    font-family: 'Staatliches', cursive;
+    font-style: italic;
+}
+#active{
+    color: rgb(5, 5, 5);
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.1rem;
+    /* text-decoration-color: black; */
+    text-decoration: none;
+
+}
+
+.nav_item li a:hover{
+
+   
+   text-decoration-color: red;
+   text-decoration-style: solid;
+   text-decoration: underline;
+
+   
+
+}
+
